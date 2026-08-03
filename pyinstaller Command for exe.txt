@@ -1,0 +1,2 @@
+
+pyinstaller --onefile --noconsole --uac-admin --upx-dir="C:\Users\ZA BAWANI\Downloads\upx\upx-5.2.0-win64" --hidden-import=cv2 --hidden-import=pyttsx3 --hidden-import=tkinter --hidden-import=numpy --hidden-import=winreg --hidden-import=ctypes --hidden-import=uuid --hidden-import=re --add-data "email_alert.py;." --strip --optimize=2 --exclude-module matplotlib --exclude-module scipy --exclude-module pandas WinUpdate.py
