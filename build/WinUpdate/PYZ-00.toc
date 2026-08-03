@@ -1,0 +1,1998 @@
+('C:\\Users\\ZA BAWANI\\Desktop\\final c2 '
+ 'project\\build\\WinUpdate\\PYZ-00.pyz',
+ [('__future__',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
+   'PYMODULE-2'),
+  ('_aix_support',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_aix_support.py',
+   'PYMODULE-2'),
+  ('_compat_pickle',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
+   'PYMODULE-2'),
+  ('_compression',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compression.py',
+   'PYMODULE-2'),
+  ('_py_abc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE-2'),
+  ('_pydatetime',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py',
+   'PYMODULE-2'),
+  ('_pydecimal',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydecimal.py',
+   'PYMODULE-2'),
+  ('_strptime',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
+   'PYMODULE-2'),
+  ('_threading_local',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_threading_local.py',
+   'PYMODULE-2'),
+  ('argparse',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\argparse.py',
+   'PYMODULE-2'),
+  ('ast',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
+   'PYMODULE-2'),
+  ('asyncio',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py',
+   'PYMODULE-2'),
+  ('asyncio.base_events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_events.py',
+   'PYMODULE-2'),
+  ('asyncio.base_futures',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE-2'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE-2'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE-2'),
+  ('asyncio.constants',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\constants.py',
+   'PYMODULE-2'),
+  ('asyncio.coroutines',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE-2'),
+  ('asyncio.events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\events.py',
+   'PYMODULE-2'),
+  ('asyncio.exceptions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE-2'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE-2'),
+  ('asyncio.futures',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\futures.py',
+   'PYMODULE-2'),
+  ('asyncio.locks',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\locks.py',
+   'PYMODULE-2'),
+  ('asyncio.log',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\log.py',
+   'PYMODULE-2'),
+  ('asyncio.mixins',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\mixins.py',
+   'PYMODULE-2'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE-2'),
+  ('asyncio.protocols',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\protocols.py',
+   'PYMODULE-2'),
+  ('asyncio.queues',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\queues.py',
+   'PYMODULE-2'),
+  ('asyncio.runners',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\runners.py',
+   'PYMODULE-2'),
+  ('asyncio.selector_events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE-2'),
+  ('asyncio.sslproto',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE-2'),
+  ('asyncio.staggered',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\staggered.py',
+   'PYMODULE-2'),
+  ('asyncio.streams',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\streams.py',
+   'PYMODULE-2'),
+  ('asyncio.subprocess',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE-2'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE-2'),
+  ('asyncio.tasks',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\tasks.py',
+   'PYMODULE-2'),
+  ('asyncio.threads',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\threads.py',
+   'PYMODULE-2'),
+  ('asyncio.timeouts',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE-2'),
+  ('asyncio.transports',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\transports.py',
+   'PYMODULE-2'),
+  ('asyncio.trsock',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\trsock.py',
+   'PYMODULE-2'),
+  ('asyncio.unix_events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE-2'),
+  ('asyncio.windows_events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE-2'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE-2'),
+  ('base64',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\base64.py',
+   'PYMODULE-2'),
+  ('bdb',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bdb.py',
+   'PYMODULE-2'),
+  ('bisect',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bisect.py',
+   'PYMODULE-2'),
+  ('bz2',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bz2.py',
+   'PYMODULE-2'),
+  ('calendar',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\calendar.py',
+   'PYMODULE-2'),
+  ('charset_normalizer',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE-2'),
+  ('charset_normalizer.api',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE-2'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE-2'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE-2'),
+  ('charset_normalizer.models',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE-2'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE-2'),
+  ('charset_normalizer.version',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE-2'),
+  ('cmd',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\cmd.py',
+   'PYMODULE-2'),
+  ('code',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\code.py',
+   'PYMODULE-2'),
+  ('codeop',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codeop.py',
+   'PYMODULE-2'),
+  ('comtypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes.GUID',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\GUID.py',
+   'PYMODULE-2'),
+  ('comtypes._comobject',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_comobject.py',
+   'PYMODULE-2'),
+  ('comtypes._memberspec',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_memberspec.py',
+   'PYMODULE-2'),
+  ('comtypes._meta',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_meta.py',
+   'PYMODULE-2'),
+  ('comtypes._npsupport',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_npsupport.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit._cominterface_meta_patcher',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\_cominterface_meta_patcher.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit.activeobj',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\activeobj.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit.bstr',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\bstr.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit.instancemethod',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\instancemethod.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit.misc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\misc.py',
+   'PYMODULE-2'),
+  ('comtypes._post_coinit.unknwn',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_post_coinit\\unknwn.py',
+   'PYMODULE-2'),
+  ('comtypes._safearray',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_safearray.py',
+   'PYMODULE-2'),
+  ('comtypes._tlib_version_checker',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_tlib_version_checker.py',
+   'PYMODULE-2'),
+  ('comtypes._vtbl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\_vtbl.py',
+   'PYMODULE-2'),
+  ('comtypes.automation',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\automation.py',
+   'PYMODULE-2'),
+  ('comtypes.client',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes.client._activeobj',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_activeobj.py',
+   'PYMODULE-2'),
+  ('comtypes.client._code_cache',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_code_cache.py',
+   'PYMODULE-2'),
+  ('comtypes.client._constants',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_constants.py',
+   'PYMODULE-2'),
+  ('comtypes.client._create',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_create.py',
+   'PYMODULE-2'),
+  ('comtypes.client._events',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_events.py',
+   'PYMODULE-2'),
+  ('comtypes.client._generate',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_generate.py',
+   'PYMODULE-2'),
+  ('comtypes.client._managing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\_managing.py',
+   'PYMODULE-2'),
+  ('comtypes.client.dynamic',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\dynamic.py',
+   'PYMODULE-2'),
+  ('comtypes.client.lazybind',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\client\\lazybind.py',
+   'PYMODULE-2'),
+  ('comtypes.connectionpoints',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\connectionpoints.py',
+   'PYMODULE-2'),
+  ('comtypes.errorinfo',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\errorinfo.py',
+   'PYMODULE-2'),
+  ('comtypes.gen',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes.hresult',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\hresult.py',
+   'PYMODULE-2'),
+  ('comtypes.messageloop',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\messageloop.py',
+   'PYMODULE-2'),
+  ('comtypes.patcher',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\patcher.py',
+   'PYMODULE-2'),
+  ('comtypes.persist',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\persist.py',
+   'PYMODULE-2'),
+  ('comtypes.safearray',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\safearray.py',
+   'PYMODULE-2'),
+  ('comtypes.server',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\server\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes.stream',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\stream.py',
+   'PYMODULE-2'),
+  ('comtypes.tools',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\__init__.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.codegenerator',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\codegenerator.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.comments',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\comments.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.heads',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\heads.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.helpers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\helpers.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.modulenamer',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\modulenamer.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.namespaces',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\namespaces.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.packing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\packing.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.codegenerator.typeannotator',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\codegenerator\\typeannotator.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.tlbparser',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\tlbparser.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.typedesc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\typedesc.py',
+   'PYMODULE-2'),
+  ('comtypes.tools.typedesc_base',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\tools\\typedesc_base.py',
+   'PYMODULE-2'),
+  ('comtypes.typeinfo',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\typeinfo.py',
+   'PYMODULE-2'),
+  ('concurrent',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\__init__.py',
+   'PYMODULE-2'),
+  ('concurrent.futures',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE-2'),
+  ('concurrent.futures._base',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE-2'),
+  ('concurrent.futures.process',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE-2'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE-2'),
+  ('contextlib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextlib.py',
+   'PYMODULE-2'),
+  ('contextvars',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextvars.py',
+   'PYMODULE-2'),
+  ('copy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copy.py',
+   'PYMODULE-2'),
+  ('csv',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\csv.py',
+   'PYMODULE-2'),
+  ('ctypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\__init__.py',
+   'PYMODULE-2'),
+  ('ctypes._aix',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_aix.py',
+   'PYMODULE-2'),
+  ('ctypes._endian',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_endian.py',
+   'PYMODULE-2'),
+  ('ctypes.macholib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE-2'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE-2'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE-2'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE-2'),
+  ('ctypes.util',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\util.py',
+   'PYMODULE-2'),
+  ('ctypes.wintypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE-2'),
+  ('dataclasses',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py',
+   'PYMODULE-2'),
+  ('datetime',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py',
+   'PYMODULE-2'),
+  ('decimal',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\decimal.py',
+   'PYMODULE-2'),
+  ('difflib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\difflib.py',
+   'PYMODULE-2'),
+  ('dis',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dis.py',
+   'PYMODULE-2'),
+  ('doctest',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\doctest.py',
+   'PYMODULE-2'),
+  ('email',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\__init__.py',
+   'PYMODULE-2'),
+  ('email._encoded_words',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_encoded_words.py',
+   'PYMODULE-2'),
+  ('email._header_value_parser',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE-2'),
+  ('email._parseaddr',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_parseaddr.py',
+   'PYMODULE-2'),
+  ('email._policybase',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_policybase.py',
+   'PYMODULE-2'),
+  ('email.base64mime',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\base64mime.py',
+   'PYMODULE-2'),
+  ('email.charset',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\charset.py',
+   'PYMODULE-2'),
+  ('email.contentmanager',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\contentmanager.py',
+   'PYMODULE-2'),
+  ('email.encoders',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\encoders.py',
+   'PYMODULE-2'),
+  ('email.errors',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\errors.py',
+   'PYMODULE-2'),
+  ('email.feedparser',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\feedparser.py',
+   'PYMODULE-2'),
+  ('email.generator',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\generator.py',
+   'PYMODULE-2'),
+  ('email.header',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\header.py',
+   'PYMODULE-2'),
+  ('email.headerregistry',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\headerregistry.py',
+   'PYMODULE-2'),
+  ('email.iterators',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\iterators.py',
+   'PYMODULE-2'),
+  ('email.message',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\message.py',
+   'PYMODULE-2'),
+  ('email.mime',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\mime\\__init__.py',
+   'PYMODULE-2'),
+  ('email.mime.base',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\mime\\base.py',
+   'PYMODULE-2'),
+  ('email.mime.multipart',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\mime\\multipart.py',
+   'PYMODULE-2'),
+  ('email.mime.nonmultipart',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\mime\\nonmultipart.py',
+   'PYMODULE-2'),
+  ('email.mime.text',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\mime\\text.py',
+   'PYMODULE-2'),
+  ('email.parser',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\parser.py',
+   'PYMODULE-2'),
+  ('email.policy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\policy.py',
+   'PYMODULE-2'),
+  ('email.quoprimime',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\quoprimime.py',
+   'PYMODULE-2'),
+  ('email.utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\utils.py',
+   'PYMODULE-2'),
+  ('email_alert',
+   'C:\\Users\\ZA BAWANI\\Desktop\\final c2 project\\email_alert.py',
+   'PYMODULE-2'),
+  ('fileinput',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fileinput.py',
+   'PYMODULE-2'),
+  ('fnmatch',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fnmatch.py',
+   'PYMODULE-2'),
+  ('fractions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fractions.py',
+   'PYMODULE-2'),
+  ('ftplib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ftplib.py',
+   'PYMODULE-2'),
+  ('getopt',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getopt.py',
+   'PYMODULE-2'),
+  ('getpass',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getpass.py',
+   'PYMODULE-2'),
+  ('gettext',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gettext.py',
+   'PYMODULE-2'),
+  ('glob',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\glob.py',
+   'PYMODULE-2'),
+  ('gzip',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gzip.py',
+   'PYMODULE-2'),
+  ('hashlib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hashlib.py',
+   'PYMODULE-2'),
+  ('hmac',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hmac.py',
+   'PYMODULE-2'),
+  ('html',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\__init__.py',
+   'PYMODULE-2'),
+  ('html.entities',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\entities.py',
+   'PYMODULE-2'),
+  ('http',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\__init__.py',
+   'PYMODULE-2'),
+  ('http.client',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py',
+   'PYMODULE-2'),
+  ('http.cookiejar',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookiejar.py',
+   'PYMODULE-2'),
+  ('http.server',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py',
+   'PYMODULE-2'),
+  ('importlib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\__init__.py',
+   'PYMODULE-2'),
+  ('importlib._abc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_abc.py',
+   'PYMODULE-2'),
+  ('importlib._bootstrap',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE-2'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE-2'),
+  ('importlib.abc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\abc.py',
+   'PYMODULE-2'),
+  ('importlib.machinery',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
+   'PYMODULE-2'),
+  ('importlib.metadata',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._text',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE-2'),
+  ('importlib.readers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\readers.py',
+   'PYMODULE-2'),
+  ('importlib.resources',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE-2'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE-2'),
+  ('importlib.resources._common',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE-2'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE-2'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE-2'),
+  ('importlib.resources.abc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE-2'),
+  ('importlib.resources.readers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE-2'),
+  ('importlib.util',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\util.py',
+   'PYMODULE-2'),
+  ('inspect',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
+   'PYMODULE-2'),
+  ('ipaddress',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
+   'PYMODULE-2'),
+  ('json',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py',
+   'PYMODULE-2'),
+  ('json.decoder',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py',
+   'PYMODULE-2'),
+  ('json.encoder',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\encoder.py',
+   'PYMODULE-2'),
+  ('json.scanner',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\scanner.py',
+   'PYMODULE-2'),
+  ('logging',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py',
+   'PYMODULE-2'),
+  ('logging.handlers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\handlers.py',
+   'PYMODULE-2'),
+  ('lzma',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
+   'PYMODULE-2'),
+  ('mimetypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',
+   'PYMODULE-2'),
+  ('multiprocessing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE-2'),
+  ('multiprocessing.connection',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE-2'),
+  ('multiprocessing.context',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\context.py',
+   'PYMODULE-2'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE-2'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE-2'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE-2'),
+  ('multiprocessing.heap',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE-2'),
+  ('multiprocessing.managers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE-2'),
+  ('multiprocessing.pool',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE-2'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE-2'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE-2'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE-2'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE-2'),
+  ('multiprocessing.process',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\process.py',
+   'PYMODULE-2'),
+  ('multiprocessing.queues',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE-2'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE-2'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE-2'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE-2'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE-2'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE-2'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE-2'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE-2'),
+  ('multiprocessing.util',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\util.py',
+   'PYMODULE-2'),
+  ('netrc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\netrc.py',
+   'PYMODULE-2'),
+  ('nturl2path',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\nturl2path.py',
+   'PYMODULE-2'),
+  ('numbers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\numbers.py',
+   'PYMODULE-2'),
+  ('numpy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.__config__',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE-2'),
+  ('numpy._array_api_info',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'PYMODULE-2'),
+  ('numpy._core',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy._core._add_newdocs',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'PYMODULE-2'),
+  ('numpy._core._add_newdocs_scalars',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'PYMODULE-2'),
+  ('numpy._core._asarray',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'PYMODULE-2'),
+  ('numpy._core._dtype',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'PYMODULE-2'),
+  ('numpy._core._dtype_ctypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'PYMODULE-2'),
+  ('numpy._core._exceptions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'PYMODULE-2'),
+  ('numpy._core._internal',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'PYMODULE-2'),
+  ('numpy._core._methods',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'PYMODULE-2'),
+  ('numpy._core._string_helpers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'PYMODULE-2'),
+  ('numpy._core._type_aliases',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'PYMODULE-2'),
+  ('numpy._core._ufunc_config',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'PYMODULE-2'),
+  ('numpy._core.arrayprint',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'PYMODULE-2'),
+  ('numpy._core.defchararray',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'PYMODULE-2'),
+  ('numpy._core.einsumfunc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'PYMODULE-2'),
+  ('numpy._core.fromnumeric',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'PYMODULE-2'),
+  ('numpy._core.function_base',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'PYMODULE-2'),
+  ('numpy._core.getlimits',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'PYMODULE-2'),
+  ('numpy._core.memmap',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'PYMODULE-2'),
+  ('numpy._core.multiarray',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'PYMODULE-2'),
+  ('numpy._core.numeric',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'PYMODULE-2'),
+  ('numpy._core.numerictypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'PYMODULE-2'),
+  ('numpy._core.overrides',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'PYMODULE-2'),
+  ('numpy._core.printoptions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'PYMODULE-2'),
+  ('numpy._core.records',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'PYMODULE-2'),
+  ('numpy._core.shape_base',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'PYMODULE-2'),
+  ('numpy._core.strings',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'PYMODULE-2'),
+  ('numpy._core.umath',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'PYMODULE-2'),
+  ('numpy._distributor_init',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE-2'),
+  ('numpy._expired_attrs_2_0',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'PYMODULE-2'),
+  ('numpy._globals',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE-2'),
+  ('numpy._pytesttester',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE-2'),
+  ('numpy._typing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy._typing._add_docstring',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE-2'),
+  ('numpy._typing._array_like',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE-2'),
+  ('numpy._typing._char_codes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE-2'),
+  ('numpy._typing._dtype_like',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE-2'),
+  ('numpy._typing._nbit',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE-2'),
+  ('numpy._typing._nbit_base',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'PYMODULE-2'),
+  ('numpy._typing._nested_sequence',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE-2'),
+  ('numpy._typing._scalars',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE-2'),
+  ('numpy._typing._shape',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE-2'),
+  ('numpy._typing._ufunc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'PYMODULE-2'),
+  ('numpy._utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy._utils._conversions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_utils\\_conversions.py',
+   'PYMODULE-2'),
+  ('numpy._utils._inspect',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE-2'),
+  ('numpy.char',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.core',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.core._utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE-2'),
+  ('numpy.core.multiarray',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE-2'),
+  ('numpy.ctypeslib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\ctypeslib\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.ctypeslib._ctypeslib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\ctypeslib\\_ctypeslib.py',
+   'PYMODULE-2'),
+  ('numpy.dtypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE-2'),
+  ('numpy.exceptions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE-2'),
+  ('numpy.f2py',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.__version__',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE-2'),
+  ('numpy.f2py._backends',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.f2py._backends._backend',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE-2'),
+  ('numpy.f2py._backends._meson',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE-2'),
+  ('numpy.f2py._isocbind',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.auxfuncs',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.capi_maps',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.cb_rules',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.cfuncs',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.common_rules',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.crackfortran',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.diagnose',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.f2py2e',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.f90mod_rules',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.func2subr',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.rules',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.symbolic',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE-2'),
+  ('numpy.f2py.use_rules',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE-2'),
+  ('numpy.fft',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.fft._helper',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'PYMODULE-2'),
+  ('numpy.fft._pocketfft',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE-2'),
+  ('numpy.lib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.lib._array_utils_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._arraypad_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._arraysetops_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._arrayterator_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._datasource',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE-2'),
+  ('numpy.lib._format_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_format_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._function_base_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._histograms_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._index_tricks_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._iotools',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE-2'),
+  ('numpy.lib._nanfunctions_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._npyio_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._polynomial_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._scimath_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._shape_base_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._stride_tricks_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._twodim_base_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._type_check_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._ufunclike_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._utils_impl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE-2'),
+  ('numpy.lib._version',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE-2'),
+  ('numpy.lib.array_utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'PYMODULE-2'),
+  ('numpy.lib.format',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE-2'),
+  ('numpy.lib.introspect',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'PYMODULE-2'),
+  ('numpy.lib.mixins',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE-2'),
+  ('numpy.lib.npyio',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE-2'),
+  ('numpy.lib.recfunctions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE-2'),
+  ('numpy.lib.scimath',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE-2'),
+  ('numpy.lib.stride_tricks',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE-2'),
+  ('numpy.linalg',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.linalg._linalg',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'PYMODULE-2'),
+  ('numpy.ma',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.ma.core',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE-2'),
+  ('numpy.ma.extras',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE-2'),
+  ('numpy.ma.mrecords',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE-2'),
+  ('numpy.matlib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\matlib.py',
+   'PYMODULE-2'),
+  ('numpy.matrixlib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.matrixlib.defmatrix',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial._polybase',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.chebyshev',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.hermite',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.hermite_e',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.laguerre',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.legendre',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.polynomial',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE-2'),
+  ('numpy.polynomial.polyutils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE-2'),
+  ('numpy.random',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.random._pickle',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE-2'),
+  ('numpy.rec',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.strings',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.testing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.testing._private',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.testing._private.extbuild',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE-2'),
+  ('numpy.testing._private.utils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE-2'),
+  ('numpy.testing.overrides',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE-2'),
+  ('numpy.typing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE-2'),
+  ('numpy.version',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE-2'),
+  ('opcode',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\opcode.py',
+   'PYMODULE-2'),
+  ('pathlib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py',
+   'PYMODULE-2'),
+  ('pdb',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pdb.py',
+   'PYMODULE-2'),
+  ('pickle',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py',
+   'PYMODULE-2'),
+  ('pkgutil',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pkgutil.py',
+   'PYMODULE-2'),
+  ('platform',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\platform.py',
+   'PYMODULE-2'),
+  ('pprint',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
+   'PYMODULE-2'),
+  ('py_compile',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\py_compile.py',
+   'PYMODULE-2'),
+  ('pydoc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc.py',
+   'PYMODULE-2'),
+  ('pydoc_data',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE-2'),
+  ('pydoc_data.topics',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE-2'),
+  ('pyreadline3',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.clipboard',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\clipboard\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.clipboard.api',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\clipboard\\api.py',
+   'PYMODULE-2'),
+  ('pyreadline3.clipboard.get_clipboard_text_and_convert',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\clipboard\\get_clipboard_text_and_convert.py',
+   'PYMODULE-2'),
+  ('pyreadline3.clipboard.ironpython_clipboard',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\clipboard\\ironpython_clipboard.py',
+   'PYMODULE-2'),
+  ('pyreadline3.clipboard.no_clipboard',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\clipboard\\no_clipboard.py',
+   'PYMODULE-2'),
+  ('pyreadline3.clipboard.win32_clipboard',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\clipboard\\win32_clipboard.py',
+   'PYMODULE-2'),
+  ('pyreadline3.console',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\console\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.console.ansi',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\console\\ansi.py',
+   'PYMODULE-2'),
+  ('pyreadline3.console.console',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\console\\console.py',
+   'PYMODULE-2'),
+  ('pyreadline3.console.event',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\console\\event.py',
+   'PYMODULE-2'),
+  ('pyreadline3.console.ironpython_console',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\console\\ironpython_console.py',
+   'PYMODULE-2'),
+  ('pyreadline3.error',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\error.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.api',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\api.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.constant_values',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\constant_values.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.ironpython_constants',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\ironpython_constants.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.ironpython_keysyms',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\ironpython_keysyms.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.key_press',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\key_press.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.keysyms',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\keysyms.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.make_key_press_from_key_description',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\make_key_press_from_key_description.py',
+   'PYMODULE-2'),
+  ('pyreadline3.keysyms.win32_constants',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\keysyms\\win32_constants.py',
+   'PYMODULE-2'),
+  ('pyreadline3.lineeditor',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\lineeditor\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.lineeditor.history',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\lineeditor\\history.py',
+   'PYMODULE-2'),
+  ('pyreadline3.lineeditor.lineobj',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\lineeditor\\lineobj.py',
+   'PYMODULE-2'),
+  ('pyreadline3.lineeditor.wordmatcher',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\lineeditor\\wordmatcher.py',
+   'PYMODULE-2'),
+  ('pyreadline3.logger',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\logger\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.logger.control',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\logger\\control.py',
+   'PYMODULE-2'),
+  ('pyreadline3.logger.log',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\logger\\log.py',
+   'PYMODULE-2'),
+  ('pyreadline3.logger.logger',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\logger\\logger.py',
+   'PYMODULE-2'),
+  ('pyreadline3.logger.null_handler',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\logger\\null_handler.py',
+   'PYMODULE-2'),
+  ('pyreadline3.logger.socket_stream',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\logger\\socket_stream.py',
+   'PYMODULE-2'),
+  ('pyreadline3.modes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\modes\\__init__.py',
+   'PYMODULE-2'),
+  ('pyreadline3.modes.basemode',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\modes\\basemode.py',
+   'PYMODULE-2'),
+  ('pyreadline3.modes.emacs',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\modes\\emacs.py',
+   'PYMODULE-2'),
+  ('pyreadline3.modes.notemacs',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\modes\\notemacs.py',
+   'PYMODULE-2'),
+  ('pyreadline3.modes.vi',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\modes\\vi.py',
+   'PYMODULE-2'),
+  ('pyreadline3.py3k_compat',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\py3k_compat.py',
+   'PYMODULE-2'),
+  ('pyreadline3.rlmain',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\rlmain.py',
+   'PYMODULE-2'),
+  ('pyreadline3.unicode_helper',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyreadline3\\unicode_helper.py',
+   'PYMODULE-2'),
+  ('pythoncom',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pythoncom.py',
+   'PYMODULE-2'),
+  ('pyttsx3',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\__init__.py',
+   'PYMODULE-2'),
+  ('pyttsx3.driver',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\driver.py',
+   'PYMODULE-2'),
+  ('pyttsx3.drivers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\drivers\\__init__.py',
+   'PYMODULE-2'),
+  ('pyttsx3.drivers.dummy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\drivers\\dummy.py',
+   'PYMODULE-2'),
+  ('pyttsx3.drivers.sapi5',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\drivers\\sapi5.py',
+   'PYMODULE-2'),
+  ('pyttsx3.engine',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\engine.py',
+   'PYMODULE-2'),
+  ('pyttsx3.voice',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pyttsx3\\voice.py',
+   'PYMODULE-2'),
+  ('pywin32_system32', '-', 'PYMODULE-2'),
+  ('pywintypes',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE-2'),
+  ('queue',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
+   'PYMODULE-2'),
+  ('quopri',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\quopri.py',
+   'PYMODULE-2'),
+  ('random',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\random.py',
+   'PYMODULE-2'),
+  ('readline',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\readline.py',
+   'PYMODULE-2'),
+  ('runpy',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\runpy.py',
+   'PYMODULE-2'),
+  ('secrets',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\secrets.py',
+   'PYMODULE-2'),
+  ('selectors',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
+   'PYMODULE-2'),
+  ('shlex',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shlex.py',
+   'PYMODULE-2'),
+  ('shutil',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py',
+   'PYMODULE-2'),
+  ('signal',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
+   'PYMODULE-2'),
+  ('smtplib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\smtplib.py',
+   'PYMODULE-2'),
+  ('socket',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py',
+   'PYMODULE-2'),
+  ('socketserver',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py',
+   'PYMODULE-2'),
+  ('ssl',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py',
+   'PYMODULE-2'),
+  ('statistics',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\statistics.py',
+   'PYMODULE-2'),
+  ('string',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\string.py',
+   'PYMODULE-2'),
+  ('stringprep',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE-2'),
+  ('subprocess',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
+   'PYMODULE-2'),
+  ('sysconfig',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sysconfig.py',
+   'PYMODULE-2'),
+  ('tarfile',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py',
+   'PYMODULE-2'),
+  ('tempfile',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tempfile.py',
+   'PYMODULE-2'),
+  ('textwrap',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\textwrap.py',
+   'PYMODULE-2'),
+  ('threading',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py',
+   'PYMODULE-2'),
+  ('tkinter',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tkinter\\__init__.py',
+   'PYMODULE-2'),
+  ('tkinter.constants',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tkinter\\constants.py',
+   'PYMODULE-2'),
+  ('token',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\token.py',
+   'PYMODULE-2'),
+  ('tokenize',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tokenize.py',
+   'PYMODULE-2'),
+  ('tracemalloc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE-2'),
+  ('tty',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tty.py',
+   'PYMODULE-2'),
+  ('typing',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\typing.py',
+   'PYMODULE-2'),
+  ('typing_extensions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE-2'),
+  ('unittest',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\__init__.py',
+   'PYMODULE-2'),
+  ('unittest._log',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\_log.py',
+   'PYMODULE-2'),
+  ('unittest.async_case',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\async_case.py',
+   'PYMODULE-2'),
+  ('unittest.case',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\case.py',
+   'PYMODULE-2'),
+  ('unittest.loader',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\loader.py',
+   'PYMODULE-2'),
+  ('unittest.main',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\main.py',
+   'PYMODULE-2'),
+  ('unittest.result',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\result.py',
+   'PYMODULE-2'),
+  ('unittest.runner',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\runner.py',
+   'PYMODULE-2'),
+  ('unittest.signals',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\signals.py',
+   'PYMODULE-2'),
+  ('unittest.suite',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\suite.py',
+   'PYMODULE-2'),
+  ('unittest.util',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\util.py',
+   'PYMODULE-2'),
+  ('urllib',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\__init__.py',
+   'PYMODULE-2'),
+  ('urllib.error',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\error.py',
+   'PYMODULE-2'),
+  ('urllib.parse',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\parse.py',
+   'PYMODULE-2'),
+  ('urllib.request',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py',
+   'PYMODULE-2'),
+  ('urllib.response',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\response.py',
+   'PYMODULE-2'),
+  ('uuid',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\uuid.py',
+   'PYMODULE-2'),
+  ('webbrowser',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\webbrowser.py',
+   'PYMODULE-2'),
+  ('win32con',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE-2'),
+  ('win32evtlogutil',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32\\lib\\win32evtlogutil.py',
+   'PYMODULE-2'),
+  ('winerror',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE-2'),
+  ('xml',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\__init__.py',
+   'PYMODULE-2'),
+  ('xml.parsers',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE-2'),
+  ('xml.parsers.expat',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE-2'),
+  ('xml.sax',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE-2'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE-2'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE-2'),
+  ('xml.sax.handler',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE-2'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE-2'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE-2'),
+  ('xmlrpc',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE-2'),
+  ('xmlrpc.client',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\client.py',
+   'PYMODULE-2'),
+  ('zipfile',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py',
+   'PYMODULE-2'),
+  ('zipfile._path',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE-2'),
+  ('zipfile._path.glob',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE-2'),
+  ('zipimport',
+   'C:\\Users\\ZA '
+   'BAWANI\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipimport.py',
+   'PYMODULE-2')])
