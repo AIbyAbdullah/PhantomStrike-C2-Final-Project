@@ -5,9 +5,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
-SENDER_EMAIL = "hafizabdullahkhanas@gmail.com"
-SENDER_PASSWORD = "bgxe ttpj rsby kpcq"  # 🔥 Naya password
-RECEIVER_EMAIL = "hafizabdullahkhanas@gmail.com"
+SENDER_EMAIL = "email"
+SENDER_PASSWORD = "emailcode"  # 🔥 Naya password
+RECEIVER_EMAIL = "email"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
